@@ -1,0 +1,1 @@
+!function(n){wp.customize("blogname",function(o){o.bind(function(o){n(".brand").text(o)})})}(jQuery),function(n){n(".dropdown > a").append('<b class="caret"></b>').dropdown()}(jQuery);
