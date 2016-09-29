@@ -80,3 +80,8 @@ big {
 		}
 	}
 }
+
+.entry-content a {
+	color: @dark-grey;
+	text-transform: underline;
+}
