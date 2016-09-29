@@ -6,6 +6,11 @@
 *.swp
 Thumbs.db
 
+# theme specific
+.jscsrc
+.jshintignore
+node_modules
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
