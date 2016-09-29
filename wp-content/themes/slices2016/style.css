@@ -6047,7 +6047,9 @@ big {
   font-size: 125%; }
 
 .cta {
-  color: #1A5EBE; }
+  color: #1A5EBE !important; }
+  .cta:visited {
+    color: #1A5EBE !important; }
 
 /*--------------------------------------------------------------
 # Elements
