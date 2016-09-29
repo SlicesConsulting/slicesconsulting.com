@@ -6136,6 +6136,9 @@ big {
 .entry-content {
   max-width: 700px; }
 
+.home .entry-content {
+  max-width: inherit; }
+
 .cbp_tmtimeline {
   margin-left: 0;
   padding-left: 0;
@@ -6154,7 +6157,7 @@ big {
   font-size: 1.5rem; }
 
 footer, footer a {
-  color: #9a9a9a; }
+  color: #454545; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -6302,7 +6305,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #1A5EBE; }
+  color: #55565A; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -6314,18 +6317,18 @@ a {
 
 /* Global styles for content links */
 .entry-content a {
-  color: #1A5EBE;
+  color: #55565A;
   text-decoration: none; }
   .entry-content a:visited {
-    color: #1A5EBE !important; }
+    color: #55565A !important; }
   .entry-content a:hover {
-    color: #1A5EBE;
+    color: #55565A;
     text-decoration: underline; }
 
 /* Call to action button */
 a.cta {
   display: block;
-  background-color: #1A5EBE;
+  background-color: #55565A;
   float: left;
   color: #fff !important;
   font-weight: bold;
@@ -6335,14 +6338,14 @@ a.cta {
   text-decoration: none;
   padding: 0 20px 10px;
   border-radius: 5px;
-  box-shadow: 0px 5px 0px 0px #113d7b, 0px 10px 5px #aaa; }
+  box-shadow: 0px 5px 0px 0px #303033, 0px 10px 5px #aaa; }
   a.cta:visited {
     color: #fff !important;
     text-decoration: none; }
   a.cta:focus, a.cta:hover {
-    background-color: #4084e5;
+    background-color: #7a7c81;
     text-decoration: none;
-    box-shadow: 0px 4px 0px 0px #113d7b, 0px 8px 5px #aaa; }
+    box-shadow: 0px 4px 0px 0px #303033, 0px 8px 5px #aaa; }
   a.cta:before {
     content: "/";
     font-weight: normal;
@@ -6403,7 +6406,7 @@ a.cta {
     text-decoration: none;
     color: #55565A; }
     .main-navigation a:hover {
-      color: #9a9a9a !important; }
+      color: #454545 !important; }
   .main-navigation .highlighted a {
     color: #00AD68; }
 
@@ -6449,7 +6452,7 @@ footer {
     footer .terms .nav a {
       color: #55565A; }
       footer .terms .nav a:hover {
-        color: #9a9a9a; }
+        color: #454545; }
 
 /*--------------------------------------------------------------
 # Accessibility
