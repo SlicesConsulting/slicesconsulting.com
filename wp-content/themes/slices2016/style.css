@@ -6057,20 +6057,6 @@ mark, ins {
 big {
   font-size: 125%; }
 
-.cta {
-  color: #1A5EBE !important;
-  font-weight: bold;
-  text-transform: lowercase;
-  font-size: 40px;
-  font-size: 2.5rem; }
-  .cta:visited {
-    color: #1A5EBE !important; }
-  .cta:before {
-    content: "/";
-    font-weight: normal;
-    font-style: italic;
-    font-size: 200%; }
-
 .cbp_tmtimeline {
   margin-left: 0;
   padding-left: 0;
@@ -6078,14 +6064,15 @@ big {
   .cbp_tmtimeline .cbp_tmtime {
     color: #DCAE75; }
 
+/* Blog styles */
 .blog h2 a {
   color: #BD4700; }
   .blog h2 a:visited {
     color: #BD4700; }
 
-.entry-content a {
-  color: #55565A;
-  text-transform: underline; }
+.blog .posted-on, .blog .byline {
+  font-size: 24px;
+  font-size: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -6242,6 +6229,43 @@ a {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
+
+/* Global styles for content links */
+.entry-content a {
+  color: #1A5EBE;
+  text-decoration: none; }
+  .entry-content a:visited {
+    color: #1A5EBE !important; }
+  .entry-content a:hover {
+    color: #1A5EBE;
+    text-decoration: underline; }
+
+/* Call to action button */
+a.cta {
+  display: block;
+  background-color: #1A5EBE;
+  float: left;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 40px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 0 20px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px 0px #113d7b, 0px 10px 5px #aaa; }
+  a.cta:visited {
+    color: #fff !important;
+    text-decoration: none; }
+  a.cta:focus, a.cta:hover {
+    background-color: #4084e5;
+    text-decoration: none;
+    box-shadow: 0px 4px 0px 0px #113d7b, 0px 8px 5px #aaa; }
+  a.cta:before {
+    content: "/";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 150%; }
 
 /*--------------------------------------------------------------
 ## Menus

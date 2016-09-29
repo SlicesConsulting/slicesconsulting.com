@@ -47,24 +47,6 @@ big {
 	font-size: 125%;
 }
 
-.cta {
-	color: $blue !important;
-	font-weight: bold;
-	text-transform: lowercase;
-	@include font-size(2.5);
-
-	&:visited {
-		color: $blue !important;
-	}
-
-	&:before {
-        content: "/";
-		font-weight: normal;
-		font-style: italic;
-		font-size: 200%;
-    }
-}
-
 .cbp_tmtimeline {
 	margin-left: 0;
 	padding-left: 0;
@@ -74,6 +56,7 @@ big {
 	}
 }
 
+/* Blog styles */
 .blog {
 	h2 a {
 		color: $rust;
@@ -82,9 +65,9 @@ big {
 			color: $rust;
 		}
 	}
+
+	.posted-on, .byline {
+		@include font-size(1.5);
+	}
 }
 
-.entry-content a {
-	color: $darkgrey;
-	text-transform: underline;
-}
