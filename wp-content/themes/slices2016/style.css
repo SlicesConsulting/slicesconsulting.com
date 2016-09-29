@@ -6153,6 +6153,9 @@ big {
   font-size: 24px;
   font-size: 1.5rem; }
 
+footer, footer a {
+  color: #9a9a9a; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -6346,7 +6349,7 @@ a.cta {
     font-style: italic;
     font-size: 150%; }
 
-home a.cta {
+.home a.cta {
   float: right; }
 
 /*--------------------------------------------------------------
@@ -6401,6 +6404,8 @@ home a.cta {
     color: #55565A; }
     .main-navigation a:hover {
       color: #9a9a9a !important; }
+  .main-navigation .highlighted a {
+    color: #00AD68; }
 
 /* Small menu. */
 .menu-toggle,
