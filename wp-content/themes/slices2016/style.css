@@ -6052,12 +6052,11 @@ big {
   text-transform: lowercase; }
   .cta:visited {
     color: #1A5EBE !important; }
-
-.slash {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 32px;
-  font-size: 2rem; }
+  .cta:before {
+    content: "/";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 200%; }
 
 /*--------------------------------------------------------------
 # Elements
