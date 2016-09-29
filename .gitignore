@@ -25,6 +25,8 @@ wp-content/themes/twentythirteen/*
 wp-content/themes/twentyfourteen/*
 wp-content/themes/twentyfifteen/*
 wp-content/themes/twentysixteen/*
+wp-content/languages/themes/twenty*.mo
+wp-content/languages/themes/twenty*.po
 
 # wpengine specific
 .smushit-status
