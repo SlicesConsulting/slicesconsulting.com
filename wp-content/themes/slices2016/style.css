@@ -6068,6 +6068,13 @@ big {
     font-style: italic;
     font-size: 200%; }
 
+.cbp_tmtimeline {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none; }
+  .cbp_tmtimeline .cbp_tmtime {
+    color: #DCAE75; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
