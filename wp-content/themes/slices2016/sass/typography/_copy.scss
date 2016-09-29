@@ -48,6 +48,7 @@ big {
 	color: $blue !important;
 	font-weight: bold;
 	text-transform: lowercase;
+	@include font-size(2.5);
 
 	&:visited {
 		color: $blue !important;
