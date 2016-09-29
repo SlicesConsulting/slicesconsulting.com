@@ -70,3 +70,13 @@ big {
 		color: $gold;
 	}
 }
+
+.blog {
+	h2 a {
+		color: $rust;
+
+		&:visited {
+			$rust
+		}
+	}
+}
