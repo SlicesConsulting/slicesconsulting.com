@@ -46,8 +46,15 @@ big {
 
 .cta {
 	color: $blue !important;
+	font-weight: bold;
+	text-transform: lowercase;
 
 	&:visited {
 		color: $blue !important;
 	}
+}
+.slash {
+	font-weight: bold;
+	font-style: italic;
+	@include font-size(2);
 }

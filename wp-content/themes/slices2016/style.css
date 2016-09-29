@@ -6047,9 +6047,17 @@ big {
   font-size: 125%; }
 
 .cta {
-  color: #1A5EBE !important; }
+  color: #1A5EBE !important;
+  font-weight: bold;
+  text-transform: lowercase; }
   .cta:visited {
     color: #1A5EBE !important; }
+
+.slash {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32px;
+  font-size: 2rem; }
 
 /*--------------------------------------------------------------
 # Elements
