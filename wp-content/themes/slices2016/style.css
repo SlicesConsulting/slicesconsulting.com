@@ -6015,6 +6015,9 @@ h3 {
   font-weight: bold;
   color: #DCAE75; }
 
+.site-content {
+  margin-top: 100px; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -6077,6 +6080,12 @@ big {
 
 .blog h2 a {
   color: #BD4700; }
+  .blog h2 a:visited {
+    color: #BD4700; }
+
+.entry-content a {
+  color: #55565A;
+  text-transform: underline; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -6237,6 +6246,9 @@ a {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+#navbar-main .navbar {
+  background-color: #fff; }
+
 #navbar-main .navbar-header {
   float: left; }
 
