@@ -1,0 +1,21 @@
+{
+  "name": "slices2016",
+  "description": "Custom WordPress theme for http://www.slicesconsulting.com",
+  "main": "index.js",
+  "authors": [
+    "Julia Mayhugh"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
