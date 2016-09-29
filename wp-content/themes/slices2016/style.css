@@ -6305,7 +6305,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #55565A; }
+  color: #1A5EBE; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -6317,18 +6317,18 @@ a {
 
 /* Global styles for content links */
 .entry-content a {
-  color: #55565A;
+  color: #1A5EBE;
   text-decoration: none; }
   .entry-content a:visited {
-    color: #55565A !important; }
+    color: #1A5EBE !important; }
   .entry-content a:hover {
-    color: #55565A;
+    color: #1A5EBE;
     text-decoration: underline; }
 
 /* Call to action button */
 a.cta {
   display: block;
-  background-color: #55565A;
+  background-color: #1A5EBE;
   float: left;
   color: #fff !important;
   font-weight: bold;
@@ -6338,14 +6338,14 @@ a.cta {
   text-decoration: none;
   padding: 0 20px 10px;
   border-radius: 5px;
-  box-shadow: 0px 5px 0px 0px #303033, 0px 10px 5px #aaa; }
+  box-shadow: 0px 5px 0px 0px #113d7b, 0px 10px 5px #aaa; }
   a.cta:visited {
     color: #fff !important;
     text-decoration: none; }
   a.cta:focus, a.cta:hover {
-    background-color: #7a7c81;
+    background-color: #4084e5;
     text-decoration: none;
-    box-shadow: 0px 4px 0px 0px #303033, 0px 8px 5px #aaa; }
+    box-shadow: 0px 4px 0px 0px #113d7b, 0px 8px 5px #aaa; }
   a.cta:before {
     content: "/";
     font-weight: normal;
