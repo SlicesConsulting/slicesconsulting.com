@@ -8,6 +8,7 @@ textarea {
 	font-family: $font__main;
 	@include font-size(2);
 	line-height: $font__line-height-body;
+	font-weight: normal;
 }
 
 @import "fonts";
