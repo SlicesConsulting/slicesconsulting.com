@@ -91,18 +91,8 @@ add_action( 'after_setup_theme', 'slices2016_content_width', 0 );
 function slices2016_widgets_init() {
 	
 	register_sidebar( array(
-		'name'          => esc_html__( 'Home First Panel', 'slices2016' ),
-		'id'            => 'panel-home-first',
-		'description'   => esc_html__( 'Displays on the homepage below the content.', 'slices2016' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h3 class="widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Home Second Panel', 'slices2016' ),
-		'id'            => 'panel-home-second',
+		'name'          => esc_html__( 'Home Panel', 'slices2016' ),
+		'id'            => 'panel-home',
 		'description'   => esc_html__( 'Displays on the homepage below the content.', 'slices2016' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -131,7 +121,7 @@ function slices2016_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'          => esc_html__( 'Footer', 'slices2016' ),
+		'name'          => esc_html__( 'Footer Panel', 'slices2016' ),
 		'id'            => 'panel-footer',
 		'description'   => esc_html__( 'Displays footer content.', 'slices2016' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
