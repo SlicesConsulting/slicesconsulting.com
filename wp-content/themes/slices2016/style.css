@@ -5809,30 +5809,29 @@ button.close {
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-.site-content {
-  margin-top: 120px; }
+.navbar-fixed-top {
+  position: static; }
 
-.home .site-content {
-  margin-top: 200px;
-  max-width: 950px; }
+@media only screen and (min-width: 769px) {
+  .navbar-fixed-top {
+    position: fixed; }
+  .site-content {
+    margin-top: 120px; }
+  .home .site-content {
+    margin-top: 200px;
+    max-width: 950px; } }
 
-.content-area {
-  float: left;
-  width: 70%; }
-
-.home .content-area {
-  float: none;
-  min-height: 150px;
-  width: 100%; }
-
-.sidebar {
-  float: right;
-  width: 23%; }
-  .sidebar ul {
-    margin: 0;
-    padding: 0; }
-    .sidebar ul li {
-      padding: 0; }
+@media only screen and (min-width: 769px) {
+  .content-area {
+    float: left;
+    width: 70%; }
+  .sidebar {
+    float: right;
+    width: 23%; }
+  .home .content-area {
+    float: none;
+    min-height: 150px;
+    width: 100%; } }
 
 footer {
   position: absolute;
@@ -5849,7 +5848,7 @@ footer {
 
 #logos {
   background-color: #ebebeb;
-  margin-top: 20rem;
+  margin-top: 10rem;
   padding-bottom: 5rem; }
   #logos H3 {
     color: #ababab;
@@ -5861,6 +5860,10 @@ footer {
     text-align: center; }
   #logos .widget-title {
     display: none; }
+
+@media only screen and (min-width: 769px) {
+  #logos {
+    margin-top: 20rem; } }
 
 .testimonial-wrap {
   overflow: auto;
@@ -6296,6 +6299,12 @@ dt {
 
 dd {
   margin: 0 1.5em 1.5em; }
+
+.sidebar ul {
+  margin: 0;
+  padding: 0; }
+  .sidebar ul li {
+    padding: 0; }
 
 img {
   height: auto;
