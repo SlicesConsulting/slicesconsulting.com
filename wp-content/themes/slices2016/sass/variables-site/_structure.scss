@@ -8,3 +8,27 @@ $size__site-sidebar: 25%;
 .home .site-content {
 	margin-top: 200px;
 }
+
+.content-area {
+	float: left;
+	width: 70%;
+}
+
+.home .content-area {
+	float: none;
+	width: 100%;
+}
+
+.sidebar {
+	float: right;
+	width: 23%;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			padding: 0;
+		}
+	}
+}

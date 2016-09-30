@@ -5815,6 +5815,23 @@ button.close {
 .home .site-content {
   margin-top: 200px; }
 
+.content-area {
+  float: left;
+  width: 70%; }
+
+.home .content-area {
+  float: none;
+  width: 100%; }
+
+.sidebar {
+  float: right;
+  width: 23%; }
+  .sidebar ul {
+    margin: 0;
+    padding: 0; }
+    .sidebar ul li {
+      padding: 0; }
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/

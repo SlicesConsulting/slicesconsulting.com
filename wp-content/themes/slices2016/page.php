@@ -33,6 +33,13 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php
-get_sidebar();
-get_footer();
+<?php if ( !is_front_page() && is_active_sidebar( 'sidebar-pages' ) ) : ?>
+
+	<div id="sidebar-pages" class="sidebar">
+
+		<?php dynamic_sidebar( 'sidebar-pages' ); ?>
+
+	</div>
+
+<?php endif; ?>
+<?php get_footer();
