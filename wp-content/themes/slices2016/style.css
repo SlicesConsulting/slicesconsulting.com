@@ -5833,14 +5833,6 @@ button.close {
     min-height: 150px;
     width: 100%; } }
 
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center; }
-
 .panel {
   padding: 3rem 0;
   overflow: auto;
@@ -5848,7 +5840,7 @@ footer {
 
 #logos {
   background-color: #ebebeb;
-  margin-top: 10rem;
+  margin-top: 4rem;
   padding-bottom: 5rem; }
   #logos H3 {
     color: #ababab;
@@ -5872,7 +5864,6 @@ footer {
     padding: 25px;
     background-color: #f6eadb;
     border-radius: 10px;
-    min-height: 290px;
     margin-bottom: 1em;
     text-align: left;
     position: relative; }
@@ -5897,6 +5888,10 @@ footer {
     text-align: center; }
     .testimonial-wrap .testimonial-source img {
       max-width: 150px; }
+
+@media only screen and (min-width: 769px) {
+  .testimonial-wrap .quote {
+    min-height: 290px; } }
 
 #footer-panel {
   background-color: #9e9e9e; }
@@ -6269,7 +6264,6 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
-  position: relative;
   padding-bottom: 6rem;
   margin: 0;
   min-height: 100%; }
@@ -6477,11 +6471,8 @@ a.cta {
 #navbar-main .navbar {
   background-color: #fff; }
 
-#navbar-main .navbar-header {
-  float: left; }
-
-#navbar-main .navbar-collapse {
-  float: right; }
+.navbar-header button {
+  background-color: #55565A; }
 
 .main-navigation {
   margin-top: 40px;
@@ -6525,6 +6516,9 @@ a.cta {
       color: #454545 !important; }
   .main-navigation .highlighted a {
     color: #00AD68; }
+
+.navbar-collapse.in .nav ul {
+  display: block; }
 
 /* Small menu. */
 .menu-toggle,
@@ -6728,7 +6722,14 @@ object {
   max-width: 100%; }
 
 .custom-logo {
-  width: 200px; }
+  width: 200px;
+  position: absolute;
+  left: 10px; }
+
+@media only screen and (min-width: 769px) {
+  .custom-logo {
+    margin-left: 0;
+    position: static; } }
 
 /*--------------------------------------------------------------
 ## Captions
