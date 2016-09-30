@@ -5832,6 +5832,24 @@ button.close {
     .sidebar ul li {
       padding: 0; }
 
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center; }
+
+.sidebar-footer {
+  overflow: auto; }
+  .sidebar-footer .widget-title {
+    color: #00AD68; }
+  .sidebar-footer .widget {
+    display: block;
+    margin-right: 1em;
+    float: left;
+    text-align: left; }
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -6239,14 +6257,6 @@ figure {
 table {
   margin: 0 0 1.5em;
   width: 100%; }
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center; }
 
 /*--------------------------------------------------------------
 # Forms

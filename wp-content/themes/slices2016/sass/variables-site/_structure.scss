@@ -32,3 +32,25 @@ $size__site-sidebar: 25%;
 		}
 	}
 }
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+}
+.sidebar-footer {
+	overflow: auto;
+
+	.widget-title {
+		color: $green;
+	}
+	.widget {
+		display: block;
+		margin-right: 1em;
+		float: left;
+		text-align: left;
+	}
+}
