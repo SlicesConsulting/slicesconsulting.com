@@ -16,6 +16,7 @@ $size__site-sidebar: 25%;
 
 .home .content-area {
 	float: none;
+	min-height: 250px;
 	width: 100%;
 }
 
@@ -42,23 +43,28 @@ footer {
 	text-align: center;
 }
 
-#sidebar-home {
+.panel {
+	padding: 4rem 0;
+	overflow: auto;
+	width: 100%;
+}
+
+#logos {
 	background-color: lighten($lightgrey,65%);
 	margin-top: 20rem;
-	overflow: auto;
-	float: none;
-	width: 100%;
 
 	.widget-title {
 		color: #fff;
 	}
 }
+#quotes {
+	.widget-title {
+		color: #fff;
+	}
+}
 
-#sidebar-footer {
+#footer-panel {
 	background-color: lighten($lightgrey,35%);
-	overflow: auto;
-	float: none;
-	width: 100%;
 
 	.widget-title {
 		color: $green;

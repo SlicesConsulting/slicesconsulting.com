@@ -13,12 +13,12 @@
 
 	</div><!-- #content .container -->
 
-	<?php if ( is_front_page() && is_active_sidebar( 'panel-home-first' ) ) : ?>
+	<?php if ( is_front_page() && is_active_sidebar( 'panel-home' ) ) : ?>
 
 		<div id="logos" class="panel">
 		<div class="container">
 
-			<?php dynamic_sidebar( 'panel-home-first' ); ?>
+			<?php dynamic_sidebar( 'panel-home' ); ?>
 
 		</div>
 		</div>
@@ -26,12 +26,12 @@
 	<?php endif; ?>
 
 
-	<?php if ( is_front_page() && is_active_sidebar( 'panel-home-second' ) ) : ?>
+	<?php if ( is_front_page() ) : ?>
 
 		<div id="quotes" class="panel">
 		<div class="container">
 
-			<?php dynamic_sidebar( 'panel-home-second' ); ?>
+		<?php get_template_part( 'template-parts/content', 'testimonials' ); ?>
 
 		</div>
 		</div>
