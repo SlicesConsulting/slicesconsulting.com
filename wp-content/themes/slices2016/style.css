@@ -5813,7 +5813,8 @@ button.close {
   margin-top: 120px; }
 
 .home .site-content {
-  margin-top: 200px; }
+  margin-top: 200px;
+  max-width: 950px; }
 
 .content-area {
   float: left;
