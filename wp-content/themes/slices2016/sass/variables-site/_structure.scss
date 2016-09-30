@@ -41,8 +41,24 @@ footer {
 	padding: 1rem;
 	text-align: center;
 }
-.sidebar-footer {
+
+#sidebar-home {
+	background-color: lighten($lightgrey,65%);
+	margin-top: 20rem;
 	overflow: auto;
+	float: none;
+	width: 100%;
+
+	.widget-title {
+		color: #fff;
+	}
+}
+
+#sidebar-footer {
+	background-color: lighten($lightgrey,35%);
+	overflow: auto;
+	float: none;
+	width: 100%;
 
 	.widget-title {
 		color: $green;

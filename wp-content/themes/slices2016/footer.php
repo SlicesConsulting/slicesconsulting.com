@@ -13,19 +13,45 @@
 
 	</div><!-- #content .container -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<?php if ( is_front_page() && is_active_sidebar( 'panel-home-first' ) ) : ?>
+
+		<div id="logos" class="panel">
 		<div class="container">
 
-		<?php if ( is_active_sidebar( 'sidebar-footer' ) ) : ?>
+			<?php dynamic_sidebar( 'panel-home-first' ); ?>
 
-			<div id="sidebar-footer" class="sidebar-footer">
+		</div>
+		</div>
 
-				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+	<?php endif; ?>
 
-			</div>
 
-		<?php endif; ?>
+	<?php if ( is_front_page() && is_active_sidebar( 'panel-home-second' ) ) : ?>
 
+		<div id="quotes" class="panel">
+		<div class="container">
+
+			<?php dynamic_sidebar( 'panel-home-second' ); ?>
+
+		</div>
+		</div>
+
+	<?php endif; ?>	
+
+	<?php if ( is_active_sidebar( 'panel-footer' ) ) : ?>
+
+		<div id="footer-panel" class="panel">
+		<div class="container">
+
+			<?php dynamic_sidebar( 'panel-footer' ); ?>
+			
+		</div>
+		</div>
+
+	<?php endif; ?>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
 
 			<!-- TODO: Make the copyright year dynamic -->
 			<div class="terms">
