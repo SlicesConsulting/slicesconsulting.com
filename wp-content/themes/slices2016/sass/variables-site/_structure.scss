@@ -16,7 +16,7 @@ $size__site-sidebar: 25%;
 
 .home .content-area {
 	float: none;
-	min-height: 250px;
+	min-height: 150px;
 	width: 100%;
 }
 
@@ -60,6 +60,47 @@ footer {
 #quotes {
 	.widget-title {
 		color: #fff;
+	}
+}
+
+.testimonial-wrap {
+	overflow: auto;
+	margin-bottom: 7rem;
+
+	.quote {
+		padding: 25px;
+		background-color: lighten($gold, 25%);
+		border-radius: 10px;
+		height: 260px;
+		margin-bottom: 1em;
+		text-align: left;
+		position: relative;
+	}
+	.quote:after {
+	  content: "";
+	  display: block; /* reduce the damage in FF3.0 */
+	  position: absolute;
+	  bottom: -15px;
+	  left: 35px;
+	  width: 0;
+	  border-width: 15px 15px 0;
+	  border-style: solid;
+	  border-color: lighten($gold, 25%) transparent;
+	}
+
+	.testimonial-img {
+		border: solid $gold 4px;
+		border-radius: 50%;
+		float: left;
+		margin-right: 2rem;
+	}
+	.testimonial-source {
+		float: left;
+		text-align: center;
+
+		img {
+			max-width: 200px;
+		}
 	}
 }
 

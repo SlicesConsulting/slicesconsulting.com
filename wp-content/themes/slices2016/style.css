@@ -5821,7 +5821,7 @@ button.close {
 
 .home .content-area {
   float: none;
-  min-height: 250px;
+  min-height: 150px;
   width: 100%; }
 
 .sidebar {
@@ -5854,6 +5854,39 @@ footer {
 
 #quotes .widget-title {
   color: #fff; }
+
+.testimonial-wrap {
+  overflow: auto;
+  margin-bottom: 7rem; }
+  .testimonial-wrap .quote {
+    padding: 25px;
+    background-color: #f6eadb;
+    border-radius: 10px;
+    height: 260px;
+    margin-bottom: 1em;
+    text-align: left;
+    position: relative; }
+  .testimonial-wrap .quote:after {
+    content: "";
+    display: block;
+    /* reduce the damage in FF3.0 */
+    position: absolute;
+    bottom: -15px;
+    left: 35px;
+    width: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #f6eadb transparent; }
+  .testimonial-wrap .testimonial-img {
+    border: solid #DCAE75 4px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem; }
+  .testimonial-wrap .testimonial-source {
+    float: left;
+    text-align: center; }
+    .testimonial-wrap .testimonial-source img {
+      max-width: 200px; }
 
 #footer-panel {
   background-color: #9e9e9e; }
