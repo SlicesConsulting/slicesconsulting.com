@@ -44,14 +44,6 @@ big {
 	font-size: 125%;
 }
 
-.entry-content {
-	max-width: 700px;
-}
-
-.home .entry-content {
-	max-width: inherit;
-}
-
 .cbp_tmtimeline {
 	margin-left: 0;
 	padding-left: 0;
@@ -72,6 +64,7 @@ big {
 	}
 
 	.posted-on, .byline {
+		color: $lightgrey;
 		@include font-size(1.5);
 	}
 }

@@ -6153,12 +6153,6 @@ mark, ins {
 big {
   font-size: 125%; }
 
-.entry-content {
-  max-width: 700px; }
-
-.home .entry-content {
-  max-width: inherit; }
-
 .cbp_tmtimeline {
   margin-left: 0;
   padding-left: 0;
@@ -6173,6 +6167,7 @@ big {
     color: #BD4700; }
 
 .blog .posted-on, .blog .byline {
+  color: #454545;
   font-size: 24px;
   font-size: 1.5rem; }
 
