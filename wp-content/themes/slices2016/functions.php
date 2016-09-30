@@ -89,16 +89,6 @@ add_action( 'after_setup_theme', 'slices2016_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function slices2016_widgets_init() {
-	
-	register_sidebar( array(
-		'name'          => esc_html__( 'Home Panel', 'slices2016' ),
-		'id'            => 'panel-home',
-		'description'   => esc_html__( 'Displays on the homepage below the content.', 'slices2016' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h3 class="widget-title">',
-		'after_title'   => '</h3>',
-	) );
 
 	register_sidebar( array(
 		'name'          => esc_html__( 'Blog Sidebar', 'slices2016' ),

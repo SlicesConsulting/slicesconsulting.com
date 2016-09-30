@@ -13,12 +13,14 @@
 
 	</div><!-- #content .container -->
 
-	<?php if ( is_front_page() && is_active_sidebar( 'panel-home' ) ) : ?>
+	<?php if ( is_front_page() ) : ?>
 
 		<div id="logos" class="panel">
 		<div class="container">
 
-			<?php dynamic_sidebar( 'panel-home' ); ?>
+			<h3>Our happy clients include</h3>
+
+			<img src="<?php echo get_stylesheet_directory_uri();?>/img/client_logos.png" />
 
 		</div>
 		</div>
@@ -28,7 +30,7 @@
 
 	<?php if ( is_front_page() ) : ?>
 
-		<div id="quotes" class="panel">
+		<div id="testimonials" class="panel">
 		<div class="container">
 
 		<?php get_template_part( 'template-parts/content', 'testimonials' ); ?>

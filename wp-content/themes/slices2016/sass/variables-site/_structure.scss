@@ -44,7 +44,7 @@ footer {
 }
 
 .panel {
-	padding: 4rem 0;
+	padding: 3rem 0;
 	overflow: auto;
 	width: 100%;
 }
@@ -52,14 +52,22 @@ footer {
 #logos {
 	background-color: lighten($lightgrey,65%);
 	margin-top: 20rem;
+	padding-bottom: 5rem;
+
+	H3 {
+		color: lighten($lightgrey,40%);
+		font-weight: lighter;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	.container {
+		text-align: center;
+	}
 
 	.widget-title {
-		color: #fff;
-	}
-}
-#quotes {
-	.widget-title {
-		color: #fff;
+		display: none;
 	}
 }
 
@@ -71,7 +79,7 @@ footer {
 		padding: 25px;
 		background-color: lighten($gold, 25%);
 		border-radius: 10px;
-		height: 260px;
+		min-height: 290px;
 		margin-bottom: 1em;
 		text-align: left;
 		position: relative;
@@ -81,7 +89,7 @@ footer {
 	  display: block; /* reduce the damage in FF3.0 */
 	  position: absolute;
 	  bottom: -15px;
-	  left: 35px;
+	  left: 40px;
 	  width: 0;
 	  border-width: 15px 15px 0;
 	  border-style: solid;
@@ -99,7 +107,7 @@ footer {
 		text-align: center;
 
 		img {
-			max-width: 200px;
+			max-width: 150px;
 		}
 	}
 }
