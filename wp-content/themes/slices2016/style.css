@@ -5844,7 +5844,6 @@ button.close {
   padding-bottom: 5rem; }
   #logos H3 {
     color: #ababab;
-    font-weight: lighter;
     text-align: left;
     margin: 0;
     padding: 0; }
@@ -5892,6 +5891,9 @@ button.close {
 @media only screen and (min-width: 769px) {
   .testimonial-wrap .quote {
     min-height: 290px; } }
+
+.home .entry-content {
+  margin: 3em 0 0; }
 
 #footer-panel {
   background-color: #9e9e9e; }

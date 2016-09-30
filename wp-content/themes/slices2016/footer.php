@@ -18,7 +18,7 @@
 		<div id="logos" class="panel">
 		<div class="container">
 
-			<h3>Our happy clients include</h3>
+			<h3>Happy clients include:</h3>
 
 			<img src="<?php echo get_stylesheet_directory_uri();?>/img/client_logos.png" />
 
