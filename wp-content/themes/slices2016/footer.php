@@ -15,6 +15,18 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
+
+		<?php if ( is_active_sidebar( 'footer' ) ) : ?>
+
+			<div id="sidebar-footer" class="sidebar-footer">
+
+				<?php dynamic_sidebar( 'footer' ); ?>
+
+			</div>
+
+		<?php endif; ?>
+
+
 			<!-- TODO: Make the copyright year dynamic -->
 			<div class="terms">
 				<ul class="nav nav-pills">
