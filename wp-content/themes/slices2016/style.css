@@ -6175,10 +6175,15 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 h1 {
-  font-size: 64px;
-  font-size: 4rem;
+  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
   color: #00AD68; }
+
+@media only screen and (min-width: 769px) {
+  h1 {
+    font-size: 64px;
+    font-size: 4rem; } }
 
 h2 {
   font-weight: bold;
@@ -6429,7 +6434,6 @@ a {
 a.cta {
   display: block;
   background-color: #1A5EBE;
-  float: left;
   color: #fff !important;
   font-weight: bold;
   text-transform: lowercase;
@@ -6452,13 +6456,20 @@ a.cta {
     font-style: italic;
     font-size: 150%; }
 
-.home a.cta {
-  float: right; }
+@media only screen and (min-width: 769px) {
+  a.cta {
+    float: left; }
+  .home a.cta {
+    float: right; } }
 
 .edit-link {
-  position: fixed;
-  top: 150px;
-  right: 50px; }
+  display: none; }
+
+@media only screen and (min-width: 769px) {
+  .edit-link {
+    position: fixed;
+    top: 150px;
+    right: 50px; } }
 
 /*--------------------------------------------------------------
 ## Menus

@@ -36,7 +36,6 @@ a {
 a.cta {
 	display: block;
 	background-color: $blue;
-	float: left;
 	color: #fff !important;
 	font-weight: bold;
 	text-transform: lowercase;
@@ -65,12 +64,22 @@ a.cta {
 		font-size: 150%;
     }
 }
-.home a.cta {
-	float: right;
+@media only screen and (min-width : 769px) {
+	a.cta {
+		float: left;
+	}
+	.home a.cta {
+		float: right;
+	}
 }
 
 .edit-link {
-	position: fixed;
-	top: 150px;
-	right: 50px;
+	display: none;
+}
+@media only screen and (min-width : 769px) {
+	.edit-link {
+		position: fixed;
+		top: 150px;
+		right: 50px;
+	}
 }

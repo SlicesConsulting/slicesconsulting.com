@@ -3,9 +3,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	@include font-size(4);
+	@include font-size(3);
 	font-weight: bold;
 	color: $green;
+}
+@media only screen and (min-width : 769px) {
+	h1 {
+		@include font-size(4);
+	}
 }
 
 h2 {
