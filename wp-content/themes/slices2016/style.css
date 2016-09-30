@@ -6517,8 +6517,15 @@ a.cta {
   .main-navigation .highlighted a {
     color: #00AD68; }
 
-.navbar-collapse.in .nav ul {
-  display: block; }
+.navbar-collapse {
+  overflow: hidden; }
+
+.navbar-collapse.in {
+  overflow: auto; }
+  .navbar-collapse.in .nav ul {
+    display: block; }
+    .navbar-collapse.in .nav ul li {
+      float: none; }
 
 /* Small menu. */
 .menu-toggle,
