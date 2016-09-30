@@ -6477,7 +6477,6 @@ a.cta {
 .main-navigation {
   margin-top: 40px;
   display: block;
-  float: right;
   text-transform: lowercase;
   font-weight: bold; }
   .main-navigation .navbar-nav > li > a {
@@ -6517,6 +6516,10 @@ a.cta {
   .main-navigation .highlighted a {
     color: #00AD68; }
 
+@media only screen and (min-width: 769px) {
+  .main-navigation {
+    float: right; } }
+
 .navbar-collapse {
   overflow: hidden; }
 
@@ -6530,6 +6533,9 @@ a.cta {
       float: none; }
 
 /* Small menu. */
+.navbar-toggle .icon-bar {
+  background-color: #fff; }
+
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block; }

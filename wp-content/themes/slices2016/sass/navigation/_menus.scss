@@ -18,7 +18,6 @@
 .main-navigation {
 	margin-top: 40px;
 	display: block;
-	float: right;
 	text-transform: lowercase;
 	font-weight: bold;
 
@@ -100,6 +99,11 @@
 	.current-menu-ancestor > a {
 	}
 }
+@media only screen and (min-width : 769px) {
+	.main-navigation {
+		float: right;
+	}
+}
 
 .navbar-collapse {
 	overflow: hidden;
@@ -118,6 +122,10 @@
 }
 
 /* Small menu. */
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
