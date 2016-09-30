@@ -95,8 +95,8 @@ function slices2016_widgets_init() {
 		'description'   => esc_html__( 'Displays on the blog index and individual blog pages.', 'slices2016' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	) );
 
 	register_sidebar( array(
@@ -105,8 +105,8 @@ function slices2016_widgets_init() {
 		'description'   => esc_html__( 'Displays on all regular pages.', 'slices2016' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	) );
 
 	register_sidebar( array(
@@ -115,8 +115,8 @@ function slices2016_widgets_init() {
 		'description'   => esc_html__( 'Displays footer content.', 'slices2016' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	) );
 }
 add_action( 'widgets_init', 'slices2016_widgets_init' );
