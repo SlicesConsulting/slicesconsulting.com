@@ -5895,15 +5895,14 @@ button.close {
 .home .entry-content {
   margin: 3em 0 0; }
 
-#footer-panel {
-  background-color: #9e9e9e; }
-  #footer-panel .widget-title {
-    color: #00AD68; }
-  #footer-panel .widget {
-    display: block;
-    margin-right: 1em;
-    float: left;
-    text-align: left; }
+#footer-panel .widget-title {
+  color: #00AD68; }
+
+#footer-panel .widget {
+  display: block;
+  margin-right: 1em;
+  float: left;
+  text-align: left; }
 
 /*--------------------------------------------------------------
 # Normalize
