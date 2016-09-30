@@ -16,11 +16,11 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 
-		<?php if ( is_active_sidebar( 'footer' ) ) : ?>
+		<?php if ( is_active_sidebar( 'sidebar-footer' ) ) : ?>
 
 			<div id="sidebar-footer" class="sidebar-footer">
 
-				<?php dynamic_sidebar( 'footer' ); ?>
+				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
 
 			</div>
 
