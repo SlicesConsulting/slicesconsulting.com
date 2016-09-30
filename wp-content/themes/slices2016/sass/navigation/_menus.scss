@@ -106,8 +106,10 @@
 }
 .navbar-collapse.in {
 	overflow: auto;
-	.nav ul {
-		display: block;
+	width: 100%;
+	ul {
+		display: block !important;
+		float: none;
 
 		li {
 			float: none;

@@ -6521,10 +6521,12 @@ a.cta {
   overflow: hidden; }
 
 .navbar-collapse.in {
-  overflow: auto; }
-  .navbar-collapse.in .nav ul {
-    display: block; }
-    .navbar-collapse.in .nav ul li {
+  overflow: auto;
+  width: 100%; }
+  .navbar-collapse.in ul {
+    display: block !important;
+    float: none; }
+    .navbar-collapse.in ul li {
       float: none; }
 
 /* Small menu. */
