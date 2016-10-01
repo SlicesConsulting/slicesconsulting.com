@@ -1,0 +1,37 @@
+.panel {
+	padding: 3rem 0;
+	overflow: auto;
+	width: 100%;
+}
+
+#footer-panel {
+
+	.widget {
+		font-weight: bold;
+		display: block;
+		margin-right: 3em;
+		float: left;
+		text-align: left;
+		@include font-size(1.6);
+
+			.widget-title {
+				color: $green;
+				text-transform: lowercase;
+				margin-top: 14px;
+			}
+	}
+}
+
+.social-icons {
+	margin-top: 1.8rem;
+
+	a {
+		color: $darkgrey;
+		font-size: 25px;
+		margin-right: 1.8rem;
+	}
+}
+
+.footer-logo {
+	max-width: 150px;
+}

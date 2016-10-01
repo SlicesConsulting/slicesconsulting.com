@@ -30,14 +30,13 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php if ( is_active_sidebar( 'sidebar-blog' ) ) : ?>
-
+	<?php if ( is_active_sidebar( 'sidebar-blog' ) ) : ?>
 	<div id="sidebar-blog" class="sidebar">
 
 		<?php dynamic_sidebar( 'sidebar-blog' ); ?>
 
 	</div>
+	<?php endif; ?>
 
-<?php endif; ?>
 <?php
 get_footer();
