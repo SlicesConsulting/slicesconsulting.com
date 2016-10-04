@@ -8447,6 +8447,10 @@ dd {
   .sidebar ul li {
     padding: 0; }
 
+.video-thumb {
+  float: left;
+  margin: 0 3rem 3rem 0; }
+
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
