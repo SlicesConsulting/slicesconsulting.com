@@ -4,8 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri();?>/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri();?>/favicon-16x16.png" sizes="16x16" />
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Merriweather:400,300,400italic,700' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
   
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKHQVN"
