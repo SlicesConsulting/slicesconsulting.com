@@ -8442,10 +8442,15 @@ dd {
   margin: 0 1.5em 1.5em; }
 
 .sidebar ul {
-  margin: 0;
-  padding: 0; }
-  .sidebar ul li {
+  margin-left: 2rem;
+  padding-left: 0; }
+
+@media only screen and (min-width: 769px) {
+  .sidebar ul {
+    margin: 0;
     padding: 0; }
+    .sidebar ul li {
+      padding: 0; } }
 
 .video-thumb {
   float: left;
@@ -8509,28 +8514,47 @@ table {
   overflow: auto;
   width: 100%; }
 
-#footer-panel .widget {
-  font-weight: bold;
-  display: block;
-  margin-right: 3em;
+#footer-panel {
+  margin-top: 2rem;
+  font-size: 28px;
+  font-size: 1.75rem;
+  text-align: center; }
+  #footer-panel .widget {
+    font-weight: bold;
+    display: block;
+    font-size: 25.6px;
+    font-size: 1.6rem; }
+    #footer-panel .widget .widget-title {
+      color: #00AD68;
+      text-transform: lowercase;
+      margin-top: 14px; }
+    @media only screen and (min-width: 769px) {
+      #footer-panel .widget {
+        float: left;
+        text-align: left;
+        margin-right: 3em; } }
+  #footer-panel .social-icons {
+    margin-top: 1.8rem; }
+    #footer-panel .social-icons a {
+      color: #55565A;
+      font-size: 25px;
+      margin-right: 1.8rem; }
+  #footer-panel .footer-logo {
+    max-width: 150px; }
+
+.site-footer .terms .nav {
+  margin-left: 0; }
+  .site-footer .terms .nav a {
+    color: #55565A; }
+    .site-footer .terms .nav a:hover {
+      color: #454545; }
+  @media only screen and (min-width: 769px) {
+    .site-footer .terms .nav {
+      float: right; } }
+
+.site-footer .copyright {
   float: left;
-  text-align: left;
-  font-size: 25.6px;
-  font-size: 1.6rem; }
-  #footer-panel .widget .widget-title {
-    color: #00AD68;
-    text-transform: lowercase;
-    margin-top: 14px; }
-
-.social-icons {
-  margin-top: 1.8rem; }
-  .social-icons a {
-    color: #55565A;
-    font-size: 25px;
-    margin-right: 1.8rem; }
-
-.footer-logo {
-  max-width: 150px; }
+  margin-top: 10px; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -8777,20 +8801,6 @@ a.cta {
   float: right;
   text-align: right;
   width: 50%; }
-
-footer {
-  margin-top: 2rem;
-  font-size: 28px;
-  font-size: 1.75rem; }
-  footer .copyright {
-    float: left;
-    margin-top: 10px; }
-  footer .terms .nav {
-    float: right; }
-    footer .terms .nav a {
-      color: #55565A; }
-      footer .terms .nav a:hover {
-        color: #454545; }
 
 /*--------------------------------------------------------------
 # Accessibility

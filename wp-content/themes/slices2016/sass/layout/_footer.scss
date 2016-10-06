@@ -5,13 +5,18 @@
 }
 
 #footer-panel {
+	margin-top: 2rem;
+	@include font-size(1.75);
+	text-align: center;
+
+	@media only screen and (min-width : 769px) {
+	}
 
 	.widget {
 		font-weight: bold;
 		display: block;
-		margin-right: 3em;
-		float: left;
-		text-align: left;
+		// float: left;
+		// text-align: left;
 		@include font-size(1.6);
 
 			.widget-title {
@@ -19,19 +24,49 @@
 				text-transform: lowercase;
 				margin-top: 14px;
 			}
+
+		@media only screen and (min-width : 769px) {
+			float: left;
+			text-align: left;
+			margin-right: 3em;
+		}
 	}
+
+	.social-icons {
+		margin-top: 1.8rem;
+
+		a {
+			color: $darkgrey;
+			font-size: 25px;
+			margin-right: 1.8rem;
+		}
+	}
+
+	.footer-logo {
+		max-width: 150px;
+	}
+
 }
 
-.social-icons {
-	margin-top: 1.8rem;
+.site-footer {
+	.terms .nav {
+		margin-left: 0;
+		
+		a {
+			color: $darkgrey;
 
-	a {
-		color: $darkgrey;
-		font-size: 25px;
-		margin-right: 1.8rem;
-	}
-}
+			&:hover {
+				color: $lightgrey;
+			}
+		}
 
-.footer-logo {
-	max-width: 150px;
+		@media only screen and (min-width : 769px) {
+			float: right;
+		}
+	}	
+
+	.copyright {
+		float: left;
+		margin-top: 10px;
+	}	
 }

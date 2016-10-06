@@ -161,24 +161,4 @@
 	}
 }
 
-footer {
-	margin-top: 2rem;
-	@include font-size(1.75);
-
-	.copyright {
-		float: left;
-		margin-top: 10px;
-	}
-	.terms .nav {
-		float: right;
-		a {
-			color: $darkgrey;
-
-			&:hover {
-				color: $lightgrey;
-			}
-		}
-	}
-}
-
 

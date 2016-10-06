@@ -11,7 +11,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_post_thumbnail(); ?>
+		<?php if(has_post_thumbnail()): ?>
+				<a href="<?php the_permalink() ?>"> <?php the_post_thumbnail(); ?></a>
+      	<?php endif; ?>
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
