@@ -161,4 +161,11 @@
 	}
 }
 
-
+.post .entry-footer {
+	font-size: 75%;
+	.cat-links {
+		margin-right: 1rem;
+		padding-right: 1rem;
+		border-right: solid lighten($lightgrey, 50%) 1px;
+	}
+}

@@ -8802,6 +8802,13 @@ a.cta {
   text-align: right;
   width: 50%; }
 
+.post .entry-footer {
+  font-size: 75%; }
+  .post .entry-footer .cat-links {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: solid #c5c5c5 1px; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
