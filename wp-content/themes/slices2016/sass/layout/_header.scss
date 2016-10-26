@@ -1,0 +1,44 @@
+.custom-logo {
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	margin-top: 10px;
+}
+@media only screen and (min-width : 769px) {
+	.custom-logo {
+		width: 160px;
+		height: 101px;
+		left: 10px;
+		margin-left: 0;
+		position: static;
+	}
+}
+
+.navbar-fixed-top {
+	position: static;
+}
+
+@media only screen and (min-width : 769px) {
+	.navbar-fixed-top {
+		position: fixed;
+	}
+}
+
+header * {
+	// set animation transition
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+header.smaller {
+
+	.custom-logo {
+		width: 80px;
+		height: 50px;
+	}
+
+	.main-navigation {
+		margin-top: 0;
+	}
+}

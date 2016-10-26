@@ -22,3 +22,7 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+@mixin troubleshoot() {
+	border: solid red 1px;
+}

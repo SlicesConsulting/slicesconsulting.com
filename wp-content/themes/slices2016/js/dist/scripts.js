@@ -1,4 +1,28 @@
 /*!
+ * Scroll.js
+ * Adds a class to the header on scroll
+ * Based on a script from http://callmenick.com/post/animated-resizing-header-on-scroll
+ */
+
++function ($) {
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){  
+
+            console.log("we scrollin.");
+            
+            $('header').addClass("smaller");
+
+        } else {
+
+            $('header').removeClass("smaller");
+
+        }
+    });
+
+}(jQuery);
+
+/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under the MIT license

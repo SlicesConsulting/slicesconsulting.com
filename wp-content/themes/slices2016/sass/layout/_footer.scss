@@ -6,18 +6,19 @@
 
 #footer-panel {
 	margin-top: 2rem;
-	@include font-size(1.75);
 	text-align: center;
 
 	@media only screen and (min-width : 769px) {
 	}
 
+	.alignment {
+		width: 70%;
+		margin: 0 auto;
+	}
+
 	.widget {
 		font-weight: bold;
 		display: block;
-		// float: left;
-		// text-align: left;
-		@include font-size(1.6);
 
 			.widget-title {
 				color: $green;
@@ -28,8 +29,12 @@
 		@media only screen and (min-width : 769px) {
 			float: left;
 			text-align: left;
-			margin-right: 3em;
+			margin-right: 2.8em;
 		}
+	}
+
+	.widget:last-of-type {
+		margin-right: 0;
 	}
 
 	.social-icons {

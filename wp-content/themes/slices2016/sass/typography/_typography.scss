@@ -5,7 +5,7 @@ select,
 textarea {
 	color: $color__text-main;
 	font-family: $font__main;
-	@include font-size(2);
+	@include font-size(1.2);
 	line-height: $font__line-height-body;
 }
 
@@ -16,3 +16,23 @@ textarea {
 @import "headings";
 
 @import "copy";
+
+.page-id-12581 .site-main {
+	text-align: center;
+
+	UL, TABLE {
+		text-align: left;
+	}
+}
+
+#footer-panel {
+	// @include font-size(1.2);
+
+	.widget {
+		@include font-size(1.0);
+	}
+}
+
+.site-footer {
+	@include font-size(1.0);
+}

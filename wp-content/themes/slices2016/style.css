@@ -5809,57 +5809,13 @@ button.close {
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-.navbar-fixed-top {
-  position: static; }
-
-@media only screen and (min-width: 769px) {
-  .navbar-fixed-top {
-    position: fixed; }
-  .site-content {
-    margin-top: 120px; }
-  .home .site-content {
-    margin-top: 200px;
-    max-width: 950px; } }
-
-@media only screen and (min-width: 769px) {
-  .content-area {
-    float: left;
-    width: 70%; }
-  .sidebar {
-    float: right;
-    width: 23%; }
-  .home .content-area {
-    float: none;
-    min-height: 150px;
-    width: 100%; } }
-
-#logos {
-  background-color: #ebebeb;
-  margin-top: 4rem;
-  padding-bottom: 5rem; }
-  #logos H3 {
-    color: #ababab;
-    text-align: left;
-    margin: 0;
-    padding: 0; }
-  #logos .container {
-    text-align: center; }
-  #logos .widget-title {
-    display: none; }
-
-@media only screen and (min-width: 769px) {
-  #logos {
-    margin-top: 20rem; } }
-
-.home .entry-content {
-  margin: 3em 0 0; }
-
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
   font-weight: normal;
+  font-size: 12pt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -6043,8 +5999,8 @@ select,
 textarea {
   color: #404040;
   font-family: "Proxima Nova", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 32px;
-  font-size: 2rem;
+  font-size: 19.2px;
+  font-size: 1.2rem;
   line-height: 1.5; }
 
 @font-face {
@@ -8312,15 +8268,18 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 h1 {
-  font-size: 48px;
-  font-size: 3rem;
+  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   color: #00AD68; }
 
+h1.entry-title {
+  text-align: center; }
+
 @media only screen and (min-width: 769px) {
   h1 {
-    font-size: 64px;
-    font-size: 4rem; } }
+    font-size: 48px;
+    font-size: 3rem; } }
 
 h2 {
   font-weight: bold;
@@ -8389,6 +8348,19 @@ big {
 
 footer, footer a {
   color: #454545; }
+
+.page-id-12581 .site-main {
+  text-align: center; }
+  .page-id-12581 .site-main UL, .page-id-12581 .site-main TABLE {
+    text-align: left; }
+
+#footer-panel .widget {
+  font-size: 16px;
+  font-size: 1rem; }
+
+.site-footer {
+  font-size: 16px;
+  font-size: 1rem; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -8473,12 +8445,85 @@ table {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
+@media only screen and (min-width: 769px) {
+  .content-area {
+    width: 70%;
+    margin: 0 auto; }
+  .sidebar {
+    float: right;
+    width: 23%; }
+  .home .content-area {
+    float: none;
+    min-height: 150px;
+    width: 100%; } }
+
+@media only screen and (min-width: 769px) {
+  .site-content {
+    margin-top: 120px; }
+  .home .site-content {
+    margin-top: 200px;
+    max-width: 950px; } }
+
+#logos {
+  background-color: #ebebeb;
+  margin-top: 4rem;
+  padding-bottom: 5rem; }
+  #logos H3 {
+    color: #ababab;
+    text-align: left;
+    margin: 0;
+    padding: 0; }
+  #logos .container {
+    text-align: center; }
+  #logos .widget-title {
+    display: none; }
+
+@media only screen and (min-width: 769px) {
+  #logos {
+    margin-top: 20rem; } }
+
+.home .entry-content {
+  margin: 3em 0 0; }
+
+.custom-logo {
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  margin-top: 10px; }
+
+@media only screen and (min-width: 769px) {
+  .custom-logo {
+    width: 160px;
+    height: 101px;
+    left: 10px;
+    margin-left: 0;
+    position: static; } }
+
+.navbar-fixed-top {
+  position: static; }
+
+@media only screen and (min-width: 769px) {
+  .navbar-fixed-top {
+    position: fixed; } }
+
+header * {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+header.smaller .custom-logo {
+  width: 80px;
+  height: 50px; }
+
+header.smaller .main-navigation {
+  margin-top: 0; }
+
 .testimonial-wrap {
   overflow: auto;
   margin-bottom: 7rem; }
   .testimonial-wrap .quote {
     padding: 25px;
-    background-color: #f6eadb;
+    background-color: #eaeaea;
     border-radius: 10px;
     margin-bottom: 1em;
     text-align: left;
@@ -8493,9 +8538,9 @@ table {
     width: 0;
     border-width: 15px 15px 0;
     border-style: solid;
-    border-color: #f6eadb transparent; }
+    border-color: #eaeaea transparent; }
   .testimonial-wrap .testimonial-img {
-    border: solid #DCAE75 4px;
+    border: solid #AAA 4px;
     border-radius: 50%;
     float: left;
     margin-right: 2rem; }
@@ -8516,14 +8561,13 @@ table {
 
 #footer-panel {
   margin-top: 2rem;
-  font-size: 28px;
-  font-size: 1.75rem;
   text-align: center; }
+  #footer-panel .alignment {
+    width: 70%;
+    margin: 0 auto; }
   #footer-panel .widget {
     font-weight: bold;
-    display: block;
-    font-size: 25.6px;
-    font-size: 1.6rem; }
+    display: block; }
     #footer-panel .widget .widget-title {
       color: #00AD68;
       text-transform: lowercase;
@@ -8532,7 +8576,9 @@ table {
       #footer-panel .widget {
         float: left;
         text-align: left;
-        margin-right: 3em; } }
+        margin-right: 2.8em; } }
+  #footer-panel .widget:last-of-type {
+    margin-right: 0; }
   #footer-panel .social-icons {
     margin-top: 1.8rem; }
     #footer-panel .social-icons a {
@@ -8689,9 +8735,7 @@ a.cta {
 
 @media only screen and (min-width: 769px) {
   a.cta {
-    float: left; }
-  .home a.cta {
-    float: right; } }
+    float: left; } }
 
 .edit-link {
   display: none; }
@@ -8709,7 +8753,12 @@ a.cta {
   background-color: #fff; }
 
 .navbar-header button {
-  background-color: #55565A; }
+  background-color: #fff; }
+  .navbar-header button .icon-bar {
+    background-color: #55565A;
+    height: 6px;
+    width: 30px;
+    margin-top: 4px; }
 
 .main-navigation {
   margin-top: 40px;
@@ -8965,16 +9014,6 @@ embed,
 iframe,
 object {
   max-width: 100%; }
-
-.custom-logo {
-  width: 200px;
-  position: absolute;
-  left: 10px; }
-
-@media only screen and (min-width: 769px) {
-  .custom-logo {
-    margin-left: 0;
-    position: static; } }
 
 /*--------------------------------------------------------------
 ## Captions

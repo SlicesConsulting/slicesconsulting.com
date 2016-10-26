@@ -12,7 +12,14 @@
 }
 
 .navbar-header button {
-	background-color: $darkgrey;
+	background-color: #fff;
+
+	.icon-bar {
+		background-color: $darkgrey;
+		height: 6px;
+		width: 30px;
+		margin-top: 4px;
+	}
 }
 
 .main-navigation {

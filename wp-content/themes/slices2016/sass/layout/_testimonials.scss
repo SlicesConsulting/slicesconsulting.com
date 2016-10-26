@@ -4,7 +4,7 @@
 
 	.quote {
 		padding: 25px;
-		background-color: lighten($gold, 25%);
+		background-color: lighten($lightestgrey, 25%);
 		border-radius: 10px;
 		margin-bottom: 1em;
 		text-align: left;
@@ -19,11 +19,11 @@
 	  width: 0;
 	  border-width: 15px 15px 0;
 	  border-style: solid;
-	  border-color: lighten($gold, 25%) transparent;
+	  border-color: lighten($lightestgrey, 25%) transparent;
 	}
 
 	.testimonial-img {
-		border: solid $gold 4px;
+		border: solid $lightestgrey 4px;
 		border-radius: 50%;
 		float: left;
 		margin-right: 2rem;

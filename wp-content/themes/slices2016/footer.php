@@ -45,7 +45,9 @@
 		<div id="footer-panel" class="panel">
 		<div class="container">
 
+			<div class="alignment">
 			<?php dynamic_sidebar( 'panel-footer' ); ?>
+			</div>
 			
 		</div>
 		</div>
@@ -55,13 +57,12 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 
-			<!-- TODO: Make the copyright year dynamic -->
 			<div class="terms">
 				<ul class="nav nav-pills">
 					<li><a href="#">Terms &amp; Conditions</a></li>
 					<li><a href="#">Privacy Policy</a></li>
 			</div>
-			<div class="copyright">&copy; 2016 Slices Consulting. All rights reserved.</div>
+			<div class="copyright">&copy; <?php echo date("Y");?> Slices Consulting. All rights reserved.</div>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
