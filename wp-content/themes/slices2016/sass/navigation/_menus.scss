@@ -13,6 +13,13 @@
 
 .navbar-header button {
 	background-color: #fff;
+	text-shadow: none;
+	box-shadow: none;
+	border: none;
+
+	&:hover {
+		border: none;
+	}
 
 	.icon-bar {
 		background-color: $darkgrey;
