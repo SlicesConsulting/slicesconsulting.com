@@ -24,8 +24,9 @@
 	}
 
 	.home .site-content {
-		margin-top: 200px;
 		max-width: 950px;
+		margin-top: 200px;
+		margin-bottom: 200px;
 	}
 }
 
@@ -50,15 +51,44 @@
 		display: none;
 	}
 }
-@media only screen and (min-width : 769px) {
-	#logos {
-		margin-top: 20rem;
+
+.home {
+	.entry-content {
+		margin: 3em 0 0;
 	}
 }
 
-.home .entry-content {
-	margin: 3em 0 0;
+// Layout differences on the about page
+.page-id-12581 {
+
+	h1 {
+		display: none;
+	}
+
+	h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+
+	color: #fff;
+
+	.content-area {
+		background-color: #434448; // Old browsers
+		@include linear-gradient(0deg, #ffffff 48%, #8e8f8e 55%, #434448 100%);
+
+		a, a:visited, a:hover, a:active {
+			color: $gold;
+		}
+	}
+
+	@media only screen and (min-width : 769px) {
+
+		.content-area {
+			width: 100%;
+			padding: 0 15%;
+		}
+	}
 }
+
 
 @import "header";
 
