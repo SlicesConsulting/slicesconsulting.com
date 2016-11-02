@@ -32,7 +32,9 @@ a.cta {
 	color: #fff !important;
 	font-weight: bold;
 	text-transform: lowercase;
-	@include font-size(1.8);
+	@include font-size(1.4);
+	width: 75%;
+	margin: 0 auto;
 	text-align: center;
 	text-decoration: none;
 	padding: 0 20px 10px;
@@ -61,6 +63,7 @@ a.cta {
 @media only screen and (min-width : 769px) {
 	a.cta {
 		float: left;
-		@include font-size(2);
+		width: inherit;
+		@include font-size(1.4);
 	}
 }

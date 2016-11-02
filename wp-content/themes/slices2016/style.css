@@ -8666,8 +8666,10 @@ a.cta {
   color: #fff !important;
   font-weight: bold;
   text-transform: lowercase;
-  font-size: 28.8px;
-  font-size: 1.8rem;
+  font-size: 22.4px;
+  font-size: 1.4rem;
+  width: 75%;
+  margin: 0 auto;
   text-align: center;
   text-decoration: none;
   padding: 0 20px 10px;
@@ -8689,8 +8691,9 @@ a.cta {
 @media only screen and (min-width: 769px) {
   a.cta {
     float: left;
-    font-size: 32px;
-    font-size: 2rem; } }
+    width: inherit;
+    font-size: 22.4px;
+    font-size: 1.4rem; } }
 
 input[type="text"],
 input[type="email"],
