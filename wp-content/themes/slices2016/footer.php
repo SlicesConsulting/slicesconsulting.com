@@ -11,7 +11,8 @@
 
 ?>
 
-	</div><!-- #content .container -->
+	</div><!-- .container -->
+	</div><!-- #content -->
 
 	<?php if ( is_front_page() ) : ?>
 

@@ -65,23 +65,28 @@
 		display: none;
 	}
 
-	h2, h3, h4, h5, h6 {
+	.pollution {
+		margin-bottom: 15rem;
+
+		h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
+
 		color: #fff;
-	}
-
-	color: #fff;
-
-	.content-area {
-		background-color: #434448; // Old browsers
-		@include linear-gradient(0deg, #ffffff 48%, #8e8f8e 55%, #434448 100%);
-
+		
 		a, a:visited, a:hover, a:active {
 			color: $gold;
 		}
 	}
 
-	@media only screen and (min-width : 769px) {
 
+
+	.site-content {
+		background-color: #434448; // Old browsers
+		@include linear-gradient(0deg, #ffffff 50%, #8e8f8e 51%, #434448 100%);
+	}
+
+	@media only screen and (min-width : 769px) {
 		.content-area {
 			width: 100%;
 			padding: 0 15%;

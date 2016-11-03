@@ -6,15 +6,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	@include font-size(1.8);
 	font-weight: bold;
-	color: #fff;
-	background-color: $green;
-	text-transform: lowercase;
-	padding: 1rem;
+	color: $green;
+	background-color: #fff;
 }
 
 .home h1 {
-	color: $green;
-	background-color: #fff;
+
 	text-transform: none;
 }
 
