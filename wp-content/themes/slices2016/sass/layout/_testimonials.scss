@@ -1,47 +1,49 @@
-.testimonial-wrap {
-	overflow: auto;
-	margin-bottom: 7rem;
+.testimonials {
+	list-style: none;
+	padding-left: 0;
+	margin: 3rem 0 0 0;
 
 	.quote {
-		padding: 25px;
-		background-color: lighten($lightestgrey, 25%);
-		border-radius: 10px;
 		margin-bottom: 1em;
 		text-align: left;
 		position: relative;
 	}
-	.quote:after {
-	  content: "";
-	  display: block; /* reduce the damage in FF3.0 */
-	  position: absolute;
-	  bottom: -15px;
-	  left: 40px;
-	  width: 0;
-	  border-width: 15px 15px 0;
-	  border-style: solid;
-	  border-color: lighten($lightestgrey, 25%) transparent;
-	}
 
-	.testimonial-img {
-		border: solid $lightestgrey 4px;
-		border-radius: 50%;
-		float: left;
-		margin-right: 2rem;
-	}
 	.testimonial-source {
-		float: left;
-		text-align: center;
+		width: 100%;
+		
+		.name {
+			font-weight: bold;
+		}
 
-		img {
+		.logo {
+			float: right;
 			max-width: 150px;
 		}
 	}
 }
 
-@media only screen and (min-width : 769px) {
-	.testimonial-wrap {
-		.quote {
-			min-height: 290px;
-		}
+#pager {
+	list-style: none;
+
+	.testimonial-img {
+		border: solid $rust 4px;
+		border-radius: 50%;
 	}
+
+	LI {
+		filter: grayscale(100%);
+		opacity: 0.5;
+		float: left;
+		margin: 0 2rem 2rem 0;
+	}
+
+	LI.rslides_here {
+		opacity: 1.0;
+		filter: grayscale(0%);
+	}
+}
+
+@media only screen and (min-width : 769px) {
+
 }

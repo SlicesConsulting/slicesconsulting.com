@@ -7,9 +7,7 @@
 	 * Based on a script from http://callmenick.com/post/animated-resizing-header-on-scroll
 	 */
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1){  
-
-            console.log("we scrollin.");
+        if ($(this).scrollTop() > 1){ 
             
             $('header').addClass("smaller");
 
@@ -25,5 +23,19 @@
 	$(".navbar-toggle").on("click", function () {
 	    $(this).toggleClass("active");
 	});
+
+    img = $(".testimonials .testimonial-img").detach()
+
+    img.appendTo( "#pager" );
+
+    $( "#pager img" ).wrap( "<li><a href='#'></a></li>" );
+
+    $(".testimonials").responsiveSlides({
+        // pager: true, 
+        // pause: true,
+        // pauseControls: true,
+        manualControls: "#pager",
+    }); 
+
 
 }(jQuery);

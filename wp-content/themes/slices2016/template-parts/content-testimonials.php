@@ -9,45 +9,50 @@ $cpt = new WP_Query( $cpt_args );
 
 $count = 1;
 
-while ( $cpt->have_posts() ) : $cpt->the_post(); 
 ?>
 
-<div class="col-md-6 p1">
-	<div class="testimonial-wrap">
-					
+
+<div class="col-md-7 p1">
+
+	<h3>What our clients are saying</h3>
+
+	<ul class="testimonials">
+	<?php while ( $cpt->have_posts() ) : $cpt->the_post(); ?>
+
+	<li>				
 		<div class="quote">
 			<?php the_excerpt();?>
 		</div>
 
-		<img src="<?php the_field('profile'); ?>" alt=""  class="testimonial-img"/>								
 
 		<div class="testimonial-source">
-		<h5>
-			<?php
-			if(get_field('name'))
-			{
-				echo get_field('name');
-			}
-			if(get_field('position'))
-			{
-				echo ', ' . get_field('position');
-			}
-			;?>
-		</h5>
+			<div class="logo">
+			<?php if (has_post_thumbnail()) {
+				the_post_thumbnail();
+			}; ?>
+			</div>
 
-		<?php
-		if (has_post_thumbnail()) {
-			the_post_thumbnail();
-		};?>
+			<?php if(get_field('name')) { ?>
+				<div class="name"><?php echo get_field('name'); ?></div>
+			<?php }; ?>
+
+			<?php if(get_field('position')) { ?>
+				<div class="title"><?php echo get_field('position'); ?></div>
+			<?php }; ?>
 		</div>
 
-	</div>
+		<img src="<?php the_field('profile'); ?>" alt=""  class="testimonial-img"/>								
+	</li>
+
+	<?php endwhile; ?>
+	</ul>
+
 </div>
 
-	<?php
-	//$count++;
+<div class="col-md-5 p1">
+	<ul id="pager">
+	</ul>
+</div>
 
-endwhile;
 
-wp_reset_postdata();
-?> 
+<?php wp_reset_postdata(); ?> 
