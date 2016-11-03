@@ -21,7 +21,11 @@
 
 			<h3>Happy clients include:</h3>
 
-			<img src="<?php echo get_stylesheet_directory_uri();?>/img/client_logos.png" />
+			<img id="phorest-logo" src="<?php echo get_stylesheet_directory_uri();?>/img/phorest-white.png" />
+			<img id="bewleys-logo" src="<?php echo get_stylesheet_directory_uri();?>/img/bewleys-white.png" />
+			<img id="therapie-logo" src="<?php echo get_stylesheet_directory_uri();?>/img/therapie-white.png" />
+			<img id="dropbox-logo" src="<?php echo get_stylesheet_directory_uri();?>/img/dropbox-white.png" />
+			<img id="optilase-logo" src="<?php echo get_stylesheet_directory_uri();?>/img/optilase-white.png" />
 
 		</div>
 		</div>
