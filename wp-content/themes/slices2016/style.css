@@ -8577,6 +8577,7 @@ header.smaller .main-navigation {
       max-width: 150px; }
 
 #pager {
+  display: none;
   list-style: none; }
   #pager .testimonial-img {
     border: solid #BD4700 4px;
@@ -8591,6 +8592,10 @@ header.smaller .main-navigation {
     opacity: 1.0;
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
+
+@media only screen and (min-width: 769px) {
+  #pager {
+    display: block; } }
 
 .panel {
   padding: 3rem 0;

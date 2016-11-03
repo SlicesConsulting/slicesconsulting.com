@@ -24,6 +24,7 @@
 }
 
 #pager {
+	display: none;
 	list-style: none;
 
 	.testimonial-img {
@@ -45,5 +46,7 @@
 }
 
 @media only screen and (min-width : 769px) {
-
+	#pager {
+		display: block;
+	}
 }
