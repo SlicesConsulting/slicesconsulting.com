@@ -14,7 +14,7 @@ $count = 1;
 
 <div class="col-md-7 p1">
 
-	<h3>What our clients are saying</h3>
+	<h2>What our clients are saying</h2>
 
 	<ul class="testimonials">
 	<?php while ( $cpt->have_posts() ) : $cpt->the_post(); ?>
