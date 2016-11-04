@@ -91,45 +91,11 @@
 	}
 }
 
-// Layout differences on the about page
-.page-id-12581 {
-
-	h1 {
-		display: none;
-	}
-
-	.pollution {
-		margin-bottom: 15rem;
-
-		h2, h3, h4, h5, h6 {
-			color: #fff;
-		}
-
-		color: #fff;
-		
-		a, a:visited, a:hover, a:active {
-			color: $gold;
-		}
-	}
-
-
-
-	.site-content {
-		background-color: #434448; // Old browsers
-		@include linear-gradient(0deg, #ffffff 50%, #8e8f8e 51%, #434448 100%);
-	}
-
-	@media only screen and (min-width : 769px) {
-		.content-area {
-			width: 100%;
-			padding: 0 15%;
-		}
-	}
-}
-
 
 @import "header";
 
 @import "testimonials";
 
 @import "footer";
+
+@import "approach";
