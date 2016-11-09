@@ -8677,7 +8677,6 @@ a.cta {
   font-size: 22.4px;
   font-size: 1.4rem;
   width: 75%;
-  margin: 0 auto;
   text-align: center;
   text-decoration: none;
   padding: 0 20px 10px;
@@ -8813,6 +8812,9 @@ a {
 #navbar-main .navbar {
   background-color: #fff; }
 
+.navbar-fixed-top .navbar-collapse {
+  max-height: inherit; }
+
 .navbar-header button {
   background-color: #fff;
   text-shadow: none;
@@ -8832,7 +8834,9 @@ a {
   text-transform: lowercase;
   font-weight: bold; }
   .main-navigation .navbar-nav > li > a {
-    padding: 10px 30px; }
+    padding: 40px 30px;
+    font-size: 28.8px;
+    font-size: 1.8rem; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -8870,7 +8874,11 @@ a {
 
 @media only screen and (min-width: 769px) {
   .main-navigation {
-    float: right; } }
+    float: right; }
+    .main-navigation .navbar-nav > li > a {
+      padding: 10px 30px;
+      font-size: 19.2px;
+      font-size: 1.2rem; } }
 
 .navbar-collapse {
   overflow: hidden; }

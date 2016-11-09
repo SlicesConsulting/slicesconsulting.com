@@ -11,6 +11,10 @@
 	}
 }
 
+.navbar-fixed-top .navbar-collapse {
+    max-height: inherit;
+ }
+
 .navbar-header button {
 	background-color: #fff;
 	text-shadow: none;
@@ -36,7 +40,8 @@
 	font-weight: bold;
 
 	.navbar-nav > li > a {
-		padding: 10px 30px;
+		padding: 40px 30px;
+		@include font-size(1.8);
 	}
 
 	ul {
@@ -116,6 +121,11 @@
 @media only screen and (min-width : 769px) {
 	.main-navigation {
 		float: right;
+
+		.navbar-nav > li > a {
+			padding: 10px 30px;
+			@include font-size(1.2);
+		}
 	}
 }
 
@@ -175,10 +185,6 @@
 .navbar-toggle .icon-bar:nth-of-type(3) {
   	top: 2px;
 }
-
-
-
-
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
