@@ -8813,7 +8813,9 @@ a {
   background-color: #fff; }
 
 .navbar-fixed-top .navbar-collapse {
-  max-height: inherit;
+  max-height: inherit; }
+
+.navbar-fixed-top .navbar-collapse.in {
   height: 700px; }
 
 .navbar-header button {
