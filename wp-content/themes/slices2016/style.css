@@ -8618,6 +8618,8 @@ header.smaller .main-navigation {
       color: #55565A;
       font-size: 25px;
       margin-right: 1.8rem; }
+  #footer-panel .footer-logo {
+    max-width: 150px; }
 
 .site-footer .terms .nav {
   margin-left: 0; }
