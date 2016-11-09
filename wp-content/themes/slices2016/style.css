@@ -8457,6 +8457,9 @@ table.outlined th {
   .content-area {
     width: 70%;
     margin: 0 auto; }
+  .has_sidebar .content-area {
+    float: left;
+    margin: 0; }
   .sidebar {
     float: right;
     width: 23%; }
@@ -8476,8 +8479,11 @@ table.outlined th {
 #logos {
   background-color: #00AD68;
   margin-top: 4rem;
-  padding-bottom: 5rem; }
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
   #logos H3 {
+    font-size: 22.4px;
+    font-size: 1.4rem;
     color: #fff;
     text-align: left;
     margin: 0 0 20px 0;
@@ -8497,10 +8503,11 @@ table.outlined th {
     #logos #phorest-logo,
     #logos #therapie-logo,
     #logos #optilase-logo {
-      max-width: 120px; }
+      max-width: 110px; }
+    #logos #laurynrose-logo,
     #logos #bewleys-logo,
     #logos #dropbox-logo {
-      max-width: 200px; } }
+      max-width: 180px; } }
   #logos .container {
     text-align: center; }
   #logos .widget-title {
@@ -8611,8 +8618,6 @@ header.smaller .main-navigation {
       color: #55565A;
       font-size: 25px;
       margin-right: 1.8rem; }
-  #footer-panel .footer-logo {
-    max-width: 150px; }
 
 .site-footer .terms .nav {
   margin-left: 0; }

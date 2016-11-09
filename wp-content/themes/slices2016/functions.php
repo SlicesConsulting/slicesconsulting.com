@@ -192,3 +192,17 @@ function slices2016_the_custom_logo() {
     echo $output;
 }
 endif;
+
+/**
+ * ----------------------------------------
+ *  Adds sidebar name, as class, on the body
+ * ----------------------------------------
+ */
+
+// function has_sidebar($classes) {
+//     if (is_active_sidebar('sidebar-blog')) {
+//         $classes[] = 'has_sidebar';
+//     }
+//     return $classes;
+// }
+// add_filter('body_class','has_sidebar');
