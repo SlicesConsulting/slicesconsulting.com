@@ -8351,11 +8351,6 @@ big {
 footer, footer a {
   color: #454545; }
 
-.page-id-12581 .site-main {
-  text-align: center; }
-  .page-id-12581 .site-main UL, .page-id-12581 .site-main TABLE {
-    text-align: left; }
-
 #footer-panel .widget {
   font-size: 16px;
   font-size: 1rem; }
@@ -8632,43 +8627,6 @@ header.smaller .main-navigation {
 .site-footer .copyright {
   float: left;
   margin-top: 10px; }
-
-.page-id-12581 h1 {
-  display: none; }
-
-.page-id-12581 .pollution {
-  margin-bottom: 15rem;
-  color: #fff; }
-  .page-id-12581 .pollution h2, .page-id-12581 .pollution h3, .page-id-12581 .pollution h4, .page-id-12581 .pollution h5, .page-id-12581 .pollution h6 {
-    color: #fff; }
-  .page-id-12581 .pollution a, .page-id-12581 .pollution a:visited, .page-id-12581 .pollution a:hover, .page-id-12581 .pollution a:active {
-    color: #DCAA00; }
-
-.page-id-12581 .site-content {
-  background-color: #434448;
-  background: #ffffff;
-  background: -webkit-linear-gradient(90deg, #ffffff 62%, #8e8f8e 64%, #434448 100%);
-  background: -webkit-linear-gradient(bottom, #ffffff 62%, #8e8f8e 64%, #434448 100%);
-  background: linear-gradient(0deg, #ffffff 62%, #8e8f8e 64%, #434448 100%); }
-
-@media only screen and (min-width: 769px) {
-  .page-id-12581 .content-area {
-    width: 100%;
-    padding: 0 15%; } }
-
-.good-marketing-themes {
-  margin: 6rem 0; }
-  .good-marketing-themes i.fa {
-    color: #00AD68;
-    font-size: 64px;
-    font-size: 4rem; }
-  .good-marketing-themes h3 {
-    margin-bottom: 2rem; }
-  .good-marketing-themes h4 {
-    font-size: 19.2px;
-    font-size: 1.2rem;
-    color: #55565A;
-    font-weight: bold; }
 
 /*--------------------------------------------------------------
 # Forms

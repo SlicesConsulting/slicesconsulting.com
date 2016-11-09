@@ -5,6 +5,14 @@
 		display: none;
 	}
 
+	.site-main {
+		text-align: center;
+
+		UL, TABLE {
+			text-align: left;
+		}
+	}
+
 	.pollution {
 		margin-bottom: 15rem;
 
@@ -48,3 +56,4 @@
 		font-weight: bold;
 	}
 }
+
