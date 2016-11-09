@@ -8813,7 +8813,8 @@ a {
   background-color: #fff; }
 
 .navbar-fixed-top .navbar-collapse {
-  max-height: inherit; }
+  max-height: inherit;
+  height: 700px; }
 
 .navbar-header button {
   background-color: #fff;
@@ -8873,6 +8874,8 @@ a {
     color: #00AD68; }
 
 @media only screen and (min-width: 769px) {
+  .navbar-fixed-top .navbar-collapse {
+    height: inherit; }
   .main-navigation {
     float: right; }
     .main-navigation .navbar-nav > li > a {
